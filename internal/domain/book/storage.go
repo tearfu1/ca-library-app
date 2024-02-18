@@ -1,8 +1,8 @@
 package book
 
 type Storage interface {
-	GetOne(uuid string) *Author
-	GetAll(limit, offset int) []*Author
-	Create(book *Author) *Author
-	Delete(book *Author) error
+	GetOne(uuid string) *Book
+	GetAll(limit, offset int) []*Book
+	Create(book *Book) *Book
+	Delete(book *Book) error
 }
