@@ -1,4 +1,4 @@
-package book
+package author
 
 type Storage interface {
 	GetOne(uuid string) *Author
